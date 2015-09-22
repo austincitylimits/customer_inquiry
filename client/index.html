@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Online BBA Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+</head>
+
+<body>
+  <div class="page-header">
+    <h1>Online BBA Example</h1>
+  </div>
+  <!-- form grouping is handled by the name of each radio button -->
+  <form action="/formhandler" method='post'>
+    <div class="form-group col-md-4">
+      <label for="management">Management</label>
+      <input type="radio" name="program" class="form-control" value="0" id="management">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="marketing">Marking</label>
+      <input type="radio" name="program" class="form-control" value="1" id="marketing">
+    </div class="form-group col-md-4">
+      <label for="genbus">General Business</label>
+      <input type="radio" name="program" class="form-control" value="2" id="genbus">
+    <div class="form-group col-md-4">      
+      <label for="economics">Economics</label>
+      <input type="radio" name="program" class="form-control" value="3" id="economics">
+    </div>
+    <hr>
+    <div class="form-group col-md-4">      
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" class="form-control" id="fname">
+    </div>
+    <div class="form-group col-md-4">      
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" class="form-control" id="lname">
+    </div>
+    <div class="form-group col-md-4">      
+      <label for="email">Email</label>
+      <input type="text" name="email" class="form-control" id="email">
+    </div>
+    <div class="form-group col-md-4">      
+      <input type="submit" name="submit" id="submit" value="submit">
+    </div>    
+  </form>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/angular.min.js"></script>
+</body>
+
+</html>

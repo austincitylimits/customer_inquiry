@@ -1,0 +1,13 @@
+{
+  "name": "customer_inquiry",
+  "version": "0.0.1",
+  "description": "Using Node/HTML/EJS for form handling",
+  "main": "server.js",
+  "repository": "https://github.com/austincitylimits/customer_inquiry",
+  "author": "Austin Cartwright",
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.14.0",
+    "ejs": "~2.3.4"
+  }
+}
